@@ -16,7 +16,7 @@ pip install -r requirements.txt
 4. Clean the text using some basic method of changing text to lower case, applying lemmatization, removing the punctuations and stop words.
 5. Filter the chats that ccontained "Shib" or "Doge".
 6. Filter the texts that were not in english. (Maching bag of words and having a threshold for the sentence.)
-7. Apply sentiment analysis for each line and get the score. 
+7. Apply sentiment analysis for each line and get the score. TextBlob library is used.
 8. Plot the sentiment score and the count of chats each day. 
 
 
